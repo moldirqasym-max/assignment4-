@@ -4,6 +4,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+ 
 /* ===== Layout ===== */
 header, footer {
   text-align: center;
@@ -299,4 +306,15 @@ p {
 
 .sidebar .info-box strong {
   color: #d4af37; /* gold labels for About Me */
+}
+
+
+
+/* ===== Text Wrapping Fix ===== */
+
+body, main, section, p, h1, h2, h3, h4, h5, h6 {
+  word-wrap: break-word;        /* переносит слова, если они слишком длинные */
+  overflow-wrap: break-word;    /* поддержка новых браузеров */
+  white-space: normal;          /* текст переносится естественно */
+  max-width: 100%;              /* текст не вылезает за экран */
 }
