@@ -284,7 +284,7 @@ p {
 /* ===== Fix text colors in Portfolio cards ===== */
 .project-card,
 .sidebar .info-box {
-  color: #fff !important; /* make all text inside white */
+  color: #fff; /* make all text inside white */
 }
 
 .sidebar .info-box p {
@@ -300,6 +300,15 @@ p {
 .sidebar .info-box strong {
   color: #d4af37 !important; /* золотой акцент для названий */
   font-weight: 600;
+}
+
+/* ===== Make project card text bright white ===== */
+.project-card p {
+  color: #ffffff !important; /* делаем основной текст белым */
+}
+
+.project-card h3 {
+  color: #d4af37 !important; /* золотой заголовок */
 }
 
 
