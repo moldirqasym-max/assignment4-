@@ -208,43 +208,36 @@ p {
 
 
 /* ===== Task 4 — Responsive Portfolio (Chanel Style) ===== */
-/* ===== Chanel Navbar ===== */
-.navbar-chanel {
-  background: #000;
-  color: #fff;
-  border-bottom: 2px solid #d4af37;
-  padding: 1rem 0;
-}
-
-.navbar-chanel .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 1.5rem;
-  text-transform: uppercase;
+/* ===== Chanel style for Bootstrap Navbar ===== */
+.navbar-dark .navbar-brand {
   font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-.logo span {
+
+.navbar-dark .navbar-brand span {
   color: #d4af37;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-  margin: 0;
-  padding: 0;
-}
-.nav-links a {
+.navbar-dark .navbar-nav .nav-link {
   color: #fff;
-  text-decoration: none;
   font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
-.nav-links a:hover {
+
+.navbar-dark .navbar-nav .nav-link:hover {
   color: #d4af37;
+}
+
+/* Burger button */
+.navbar-toggler {
+  border-color: #d4af37;
+}
+
+.navbar-toggler-icon {
+  filter: invert(80%) sepia(60%) saturate(500%) hue-rotate(15deg) brightness(100%);
 }
 
 /* ===== Portfolio layout ===== */
